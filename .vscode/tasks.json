@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar e Testar (QA)",
+            "type": "shell",
+            "command": "g++ -std=c++17 -I src/inc src/main.cpp src/FileSystem.cpp src/Directory.cpp src/File.cpp src/Data.cpp -o src/out/projeto_poo.exe; if ($?) { .\\src\\out\\projeto_poo.exe --test }",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

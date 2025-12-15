@@ -1,0 +1,22 @@
+|-- [testdir]
+|   |-- ab.txt (649 bytes)
+|   |-- b.csv (0 bytes)
+|   |-- c.png (0 bytes)
+|   |-- [1]
+|   |   |-- d.txt (5 bytes)
+|   |   |-- E1onxrvVgAU5qIB.jpg (149163 bytes)
+|   |   |-- Projeto_POO.pdf (326374 bytes)
+|   |   |-- SD_04.pdf (698727 bytes)
+|   |-- [2]
+|   |   |-- renamed_a.txt (2800 bytes)
+|   |   |-- b.txt (2 bytes)
+|   |   |-- c.txt (0 bytes)
+|   |-- [3]
+|   |   |-- e.txt (1 bytes)
+|   |   |-- f.txt (0 bytes)
+|   |   |-- [2]
+|   |   |   |-- renamed_a.txt (0 bytes)
+|   |-- [4]
+|   |   |-- .gitkeep (0 bytes)
+|   |-- [todelete]
+|   |   |-- todelete.txt (5 bytes)

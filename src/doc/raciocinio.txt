@@ -1,0 +1,9 @@
+1. Correr o programa numa dada diretoria e esta (e seus conteúdos) serem carregados para
+memória (SistemaFicheiros); O método deve devolver true se a operação foi bem sucedida. 
+bool SistemaFicheiros::Load(const string &path)
+
+Primeiro, temos de inicializar num dado caminho de uma diretoria.
+Isto envolve ler o path da mesma, validá-lo, e fazer as manipulações necessárias com o filesystem.
+Depois, carregar os conteúdos todos para memória.
+Isto vai ser algo recursivo. Vamos começar por carregar os conteúdos de uma diretoria,
+e para cada filho dessa diretoria, carregamos os conteúdos da mesma e lançamos este ciclo recursivo de aqui em diante.

@@ -1,0 +1,27 @@
+# -I src/inc  <-- Diz ao g++ "Procura headers também na pasta src/inc"
+# src/*.cpp   <-- Diz ao g++ "Compila todos os ficheiros .cpp dentro da pasta src"
+g++ -std=c++17 -I src/inc src/main.cpp src/FileSystem.cpp src/Directory.cpp src/File.cpp -o out/projeto_poo
+
+Não podemos omitir a versão, principalmente por causa do filesystem.
+
+Fora do src:
+g++ -std=c++17 -I src/inc src/main.cpp src/FileSystem.cpp src/Directory.cpp src/File.cpp src/Data.cpp -o src/out/projeto_poo
+./src/out/projeto_poo
+
+Dentro do src:
+g++ -std=c++17 -I /inc /main.cpp /FileSystem.cpp /Directory.cpp /File.cpp /Data.cpp -o /out/projeto_poo
+./out/projeto_poo
+
+Testes QA:
+g++ -std=c++17 -I src/inc src/main.cpp src/FileSystem.cpp src/Directory.cpp src/File.cpp src/Data.cpp -o src/out/projeto_poo
+./src/out/projeto_poo --test
+
+Resultado Esperado:
+=== A INICIAR TESTES AUTOMATICOS (QA) ===
+Testing Load...
+[PASS] Load directory 'testdir'
+[PASS] CountFiles
+[PASS] CountDirectories
+[PASS] Memory
+
+=== TODOS OS TESTES PASSARAM COM SUCESSO! ===

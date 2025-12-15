@@ -1,0 +1,2 @@
+1. Função de recursiva carregar ficheiros em memória
+2. Tradução do código e aspetos para inglês, para garantir projeto unviersal

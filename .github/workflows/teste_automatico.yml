@@ -1,0 +1,19 @@
+name: C++ QA Tests
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Criar pasta de output
+      run: mkdir -p src/out
+
+    - name: Compilar
+      run: g++ -std=c++17 -I src/inc src/main.cpp src/FileSystem.cpp src/Directory.cpp src/File.cpp src/Data.cpp -o src/out/projeto_poo
+
+    - name: Correr Testes QA
+      run: ./src/out/projeto_poo --test

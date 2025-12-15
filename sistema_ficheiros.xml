@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Directoria nome="testdir">
+  <Ficheiro nome="ab.txt" tamanho="649" data="2025/11/16"/>
+  <Ficheiro nome="b.csv" tamanho="0" data="2025/11/16"/>
+  <Ficheiro nome="c.png" tamanho="0" data="2025/11/16"/>
+  <Directoria nome="1">
+    <Ficheiro nome="d.txt" tamanho="5" data="2025/11/30"/>
+    <Ficheiro nome="E1onxrvVgAU5qIB.jpg" tamanho="149163" data="2025/11/16"/>
+    <Ficheiro nome="Projeto_POO.pdf" tamanho="326374" data="2025/12/05"/>
+    <Ficheiro nome="SD_04.pdf" tamanho="698727" data="2025/11/21"/>
+    <Directoria nome="2">
+      <Ficheiro nome="a.txt" tamanho="2800" data="2025/11/30"/>
+      <Ficheiro nome="b.txt" tamanho="2" data="2025/11/30"/>
+      <Ficheiro nome="c.txt" tamanho="0" data="2025/11/30"/>
+    </Directoria>
+  </Directoria>
+  <Directoria nome="3">
+    <Ficheiro nome="e.txt" tamanho="1" data="2025/11/30"/>
+    <Ficheiro nome="f.txt" tamanho="0" data="2025/11/30"/>
+  </Directoria>
+  <Directoria nome="4">
+    <Ficheiro nome=".gitkeep" tamanho="0" data="2025/11/30"/>
+  </Directoria>
+  <Directoria nome="todelete">
+    <Ficheiro nome="todelete.txt" tamanho="5" data="2025/12/01"/>
+  </Directoria>
+</Directoria>
